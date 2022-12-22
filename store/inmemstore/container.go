@@ -96,9 +96,6 @@ func (c *Container) GetDevice(jid types.JID) (*store.Device, error) {
 // ErrDeviceIDMustBeSet is the error returned by PutDevice if you try to save a device before knowing its JID.
 var ErrDeviceIDMustBeSet = errors.New("device JID must be known before accessing database")
 
-// ErrMethodNotImplemented is the error returned by methods that are not implemented.
-var ErrMethodNotImplemented = errors.New("method not implemented")
-
 // PutDevice stores the given device in this database. This should be called through Device.Save()
 // (which usually doesn't need to be called manually, as the library does that automatically when relevant).
 // in this package this would be ignored, instead we let the package users save it in their own way.
