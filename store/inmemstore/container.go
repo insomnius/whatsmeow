@@ -101,8 +101,9 @@ var ErrMethodNotImplemented = errors.New("method not implemented")
 
 // PutDevice stores the given device in this database. This should be called through Device.Save()
 // (which usually doesn't need to be called manually, as the library does that automatically when relevant).
+// in this package this would be ignored, instead we let the package users save it in their own way.
 func (c *Container) PutDevice(device *store.Device) error {
-	return ErrMethodNotImplemented
+	return nil
 }
 
 // DeleteDevice deletes the given device from this database. This should be called through Device.Delete()
