@@ -58,8 +58,8 @@ func (c *Container) GetFirstDevice() (*store.Device, error) {
 // call Save after a successful pairing, so you most likely don't need to call it yourself.
 func (c *Container) NewDevice() *store.Device {
 	device := &store.Device{
-		Log: c.log,
-		// Container: c,
+		Log:       c.log,
+		Container: c,
 
 		NoiseKey:       keys.NewKeyPair(),
 		IdentityKey:    keys.NewKeyPair(),
