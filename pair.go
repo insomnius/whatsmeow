@@ -19,11 +19,11 @@ import (
 
 	"go.mau.fi/libsignal/ecc"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/keys"
+	waBinary "github.com/insomnius/whatsmeow/binary"
+	waProto "github.com/insomnius/whatsmeow/binary/proto"
+	"github.com/insomnius/whatsmeow/types"
+	"github.com/insomnius/whatsmeow/types/events"
+	"github.com/insomnius/whatsmeow/util/keys"
 )
 
 const qrScanTimeout = 30 * time.Second

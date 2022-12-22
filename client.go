@@ -20,15 +20,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mau.fi/whatsmeow/appstate"
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/socket"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	"github.com/insomnius/whatsmeow/appstate"
+	waBinary "github.com/insomnius/whatsmeow/binary"
+	waProto "github.com/insomnius/whatsmeow/binary/proto"
+	"github.com/insomnius/whatsmeow/socket"
+	"github.com/insomnius/whatsmeow/store"
+	"github.com/insomnius/whatsmeow/types"
+	"github.com/insomnius/whatsmeow/types/events"
+	"github.com/insomnius/whatsmeow/util/keys"
+	waLog "github.com/insomnius/whatsmeow/util/log"
 )
 
 // EventHandler is a function that can handle events from WhatsApp.

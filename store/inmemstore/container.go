@@ -7,10 +7,10 @@ import (
 
 	mathRand "math/rand"
 
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	"github.com/insomnius/whatsmeow/store"
+	"github.com/insomnius/whatsmeow/types"
+	"github.com/insomnius/whatsmeow/util/keys"
+	waLog "github.com/insomnius/whatsmeow/util/log"
 )
 
 type Container struct {

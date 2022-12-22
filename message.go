@@ -25,12 +25,12 @@ import (
 	"go.mau.fi/libsignal/protocol"
 	"go.mau.fi/libsignal/session"
 
-	"go.mau.fi/whatsmeow/appstate"
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	"github.com/insomnius/whatsmeow/appstate"
+	waBinary "github.com/insomnius/whatsmeow/binary"
+	waProto "github.com/insomnius/whatsmeow/binary/proto"
+	"github.com/insomnius/whatsmeow/store"
+	"github.com/insomnius/whatsmeow/types"
+	"github.com/insomnius/whatsmeow/types/events"
 )
 
 var pbSerializer = store.SignalProtobufSerializer
